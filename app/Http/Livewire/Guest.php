@@ -20,6 +20,7 @@ class Guest extends Component
     public $agenda;
     public $spt;
     public $paging, $search;
+    public $toast;
 
 
     // public function mount()
@@ -53,8 +54,9 @@ class Guest extends Component
         ]);
   
         Guests::create($data);
+        $data=$this->toast;
         return Redirect()->route('guest')->with('success','Data tamu sudah disimpan');
-        return Redirect()->route('guest');
+        // return Redirect()->route('guest');
         // return back()->withInput();
     }
 

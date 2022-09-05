@@ -1,9 +1,5 @@
-{{-- <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"> --}}
-{{-- <link rel="stylesheet"
-    href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"> --}}
-
-<section class="overflow-hidden text-gray-700 ">
-<div class="lg:w-4/12 px-4 mx-auto pt-6">
+<section class="container mx-auto pt-5 justify-center z-0 w-full top-12">
+<div class="lg:w-4/12 px-4 mx-auto">
         <div class="bg-blue-100 relative min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0">
             <div class="rounded-t mb-0 px-6 py-6">
                 <div class="text-center mb-3">

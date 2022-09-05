@@ -1,9 +1,8 @@
-<div class="w-full">
-    <link rel="stylesheet"
+<link rel="stylesheet"
         href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
-    <footer class="bg-gradient-to-r from-gray-200 via-[#bce1ff] to-gray-200">
-        
-        <div class="mx-6 py-10 px-10 text-center md:text-center justify-center w-full">
+
+    <footer class="bg-gradient-to-r from-gray-200 via-[#bce1ff] to-gray-200 w-full bottom-0">
+        <div class="mx-6 py-10 px-10 text-center md:text-center justify-center">
             <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div class="">
 
@@ -141,4 +140,3 @@
             </div>
         </div>
     </footer>
-</div>

@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Livewire\Siswa\Coba;
+
 use App\Http\Livewire\Home;
 use App\Http\Livewire\Article;
+use App\Http\Livewire\Coba;
 use App\Http\Livewire\Contact;
 use App\Http\Livewire\Gallery;
 use App\Http\Livewire\Login;
@@ -60,7 +61,7 @@ Route::get('/login', Login::class)->name('livewire.login');
 Route::get('/report', Report::class)->name('livewire.report');
 Route::get('/gallery', Gallery::class)->name('livewire.gallery');
 Route::get('/report/{id}', Report::class);
-Route::get('/coba', Guest::class)->name('livewire.coba');
+Route::get('/coba', Coba::class)->name('livewire.coba');
 Route::post('/submit', [Guest::class,'submit'])->name('submit');
 Route::get('/guest', Guest::class)->name('guest');
 Route::get('/guest-eng', GuestEng::class)->name('guest-eng');

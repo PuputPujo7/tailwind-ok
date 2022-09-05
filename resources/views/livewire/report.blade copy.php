@@ -1,4 +1,4 @@
-<div class="antialiased sans-serif bg-blue-50 h-auto">
+<div class="antialiased sans-serif h-auto">
 	
 
 	{{-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"> --}}
