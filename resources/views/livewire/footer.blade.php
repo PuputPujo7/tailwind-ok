@@ -8,7 +8,7 @@
 
                     <h6
                         class="flex items-center justify-center">
-                        <img src="img/logo.jpg" class="lg:h-15 sm:h-10 pt-1 justify-center items-center md:justify-center"
+                        <img src="img/logo.png" class="lg:h-15 sm:h-10 pt-1 justify-center items-center md:justify-center rounded bg-white"
                             alt="logo" />
 
                     </h6>

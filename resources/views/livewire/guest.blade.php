@@ -41,7 +41,8 @@
             }
         </style>
 
-        <div class="px-4 py-6 gap-x-6 max-w-4xl mx-auto bg-blue-100 rounded shadow w-full">
+        <div class="px-4 py-6 gap-x-6 max-w-4xl mx-auto bg-blue-100 rounded shadow w-full" 
+        style="background-image: url(https://skm.dpmptsp.jatengprov.go.id/storage/settings/June2021/AjJQK0gWGI2jTZXivdgZ.jpg);">
             <div class="mb-3 mt-3">
                 <form wire:submit.prevent="submit" class="">
                     <div class="mt-3">
@@ -51,7 +52,7 @@
                                 Instansi)
                             </p>
                             <div wire:model="group"
-                                class="flex space-x-4 my-2 items-center grid gap-6 mb-3 sm:grid-cols-2 lg:grid-cols-2"placeholder="Personal/ Company - Institution"
+                                class="space-x-4 my-2 items-center grid gap-6 mb-3 sm:grid-cols-2 lg:grid-cols-2"placeholder="Personal/ Company - Institution"
                                 required>
                                 <select name="" id=""
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -228,7 +229,8 @@
 
 
         <!-- component -->
-        <div class="px-4 py-6 gap-x-6 max-w-4xl mx-auto bg-blue-100 rounded shadow w-full">
+        <div class="px-4 py-6 gap-x-6 max-w-4xl mx-auto bg-blue-100 rounded shadow w-full"
+        style="background-image: url(https://skm.dpmptsp.jatengprov.go.id/storage/settings/June2021/AjJQK0gWGI2jTZXivdgZ.jpg);">
             <h2 class="mt-5 text-center text-2xl font-bold text-blue-800 mb-4 underline">List Tamu</h2>
             <div class="grid gap-6 mb-6 sm:grid-cols-2 lg:grid-cols-2 row">
                 <div class="col-md-3">

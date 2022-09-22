@@ -7,8 +7,8 @@
                         <a class="flex-shrink-0" href="#">
                             {{-- <img class="block lg:hidden h-12 w-16" src="https://imlovefood.com/wp-content/themes/mypanganthema/img/logo_small.png" alt="Logo">
             <img class="hidden lg:block h-12 w-auto" src="https://imlovefood.com/wp-content/themes/mypanganthema/img/logo_small_gray.png" alt="Logo"> --}}
-                            <img class="block lg:hidden h-12 w-16" src="img/logo.jpg" alt="Logo">
-                            <img class="hidden lg:block h-12 w-auto" src="img/logo.jpg" alt="Logo">
+                            <img class="block lg:hidden h-16 w-auto rounded bg-white" src="img/logo.png" alt="Logo">
+                            <img class="hidden lg:block h-16 w-auto rounded bg-white" src="img/logo.png" alt="Logo">
                         </a>
                         {{-- <div class="hidden lg:block lg:ml-2 bg-blue-200">
                             <div class="flex">

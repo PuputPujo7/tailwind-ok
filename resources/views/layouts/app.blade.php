@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="icon" href="img/logo.jpg">
+    <link rel="icon" href="img/logo.png">
     <meta name="viewport" content="width=device-width">
 
     {{-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" /> --}}
@@ -70,7 +70,7 @@
 
 <livewire:navbar>
 
-<section class="mt-16 px-3 py-3 w-full" style="background-image: url(https://source.unsplash.com/featured/?mount)">
+<section class="mt-16 px-3 py-3 w-full" style="background-image: url(https://source.unsplash.com/featured/?mount);background-size:cover;">
     {{ $slot }}
 </section>
     {{-- <a  class="whats-app" href="#" target="_blank">

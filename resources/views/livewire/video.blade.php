@@ -167,7 +167,8 @@
 
                         {{-- </video> --}}
                         {{-- <iframe class="flex items-center" src="https://www.youtube.com/embed/6YqqCgK3lxQ" frameborder="3" width="350" height="200" allowfullscreen></iframe> --}}
-                        <iframe class="flex items-center" src="{{ substr($video->url, 0 ,25) }}embed/{{ substr($video->url, 25 ,40) }}" frameborder="3" width="350" height="200" allowfullscreen></iframe>
+                        <iframe class="flex items-center"  frameborder="3" width="350" height="200" allowfullscreen>
+                        <x-embed url={{ $video->url }}></iframe>
                         {{-- <div class="flex space-x-3 pt-5 mt-20 justify-center items-center text-center">
                             <button
                                 class="rounded-full w-8 h-8 flex items-center justify-center pl-0.5 ring-2 ring-green-500 focus:outline-none">
