@@ -20,6 +20,7 @@ class GuestResource extends Resource
     protected static ?string $model = Guests::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-collection';
+    protected static ?string $navigationGroup = 'Frontend Management';
 
     public static function form(Form $form): Form
     {
