@@ -15,6 +15,9 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\MultiSelect;
 use Filament\Tables\Table as TablesTable;
+use Filament\Forms\Components\TextInput;
+use Filament\Pages\Page;
+use Illuminate\Support\Facades\Hash;
 
 class UsersResource extends Resource
 {
@@ -30,10 +33,17 @@ class UsersResource extends Resource
                 
                 Forms\Components\TextInput::make('name')->required(),
                 Forms\Components\TextInput::make('email')->email()->required(),
+                TextInput::make('password')
+                ->password()
+                ->dehydrateStateUsing(fn ($state) => Hash::make($state))
+                ->dehydrated(fn ($state) => filled($state))
+                ->required(fn (string $context): bool => $context === 'create')
+                ,
                 // Select::make('roles_id')
                 // ->relationship('roles', 'name'),
                 MultiSelect::make('roles')
                 ->relationship('roles', 'name'),
+                // Forms\Components\TextInput::make('password'),
                 Forms\Components\FileUpload::make('picture')->required(),
             ]);
     }
@@ -45,6 +55,7 @@ class UsersResource extends Resource
                 Tables\Columns\ImageColumn::make('picture'),
                 Tables\Columns\TextColumn::make('name')->wrap(),
                 Tables\Columns\TextColumn::make('email')->wrap(),
+                Tables\Columns\TextColumn::make('password'),
                 Tables\Columns\TextColumn::make('roles.name')->wrap(),
                 Tables\Columns\TextColumn::make('created_at'),
                 
